@@ -1,7 +1,4 @@
  @media screen and (max-width: 1024px) {
-.banner {
-	min-height: 450px;
-}
 #header .header-content {
 	width: 90%;
 }
@@ -61,13 +58,10 @@
 }
 }
  @media screen and (max-width: 768px) {
-.banner-text {
-	padding-top: 30%;
-}
-.banner-text h1 {
+.banner-text-wrapper h1 {
 	font-size: 24px;
 }
-.banner-text p {
+.banner-text-wrapper p {
 	font-size: 15px;
 }
 .flexslider {
@@ -97,14 +91,8 @@
 .banner-text p {
 	font-size: 13px;
 }
-.banner {
-	height: 30px!important;
-}
 }
  @media screen and (max-width: 320px) {
-.banner {
-	height: 30px!important;
-}
 .banner-text {
 	padding-top: 55%;
 	text-align: center;

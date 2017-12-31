@@ -17,6 +17,75 @@
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style lang="css">
+ section.banner{
+	position: relative;
+	text-align: center;
+ }
+
+.banner-text-wrapper{
+	display: inline-block;
+	width: 700px;
+	position: relative;
+	left: 750px;
+	padding-top: 300px;
+}
+.banner-inner-img{
+	display: inline-block;
+	width: 700px;
+	position: relative;
+	left: -700px;
+}
+ 
+ @media (max-width: 1400px) {
+ 	 section.banner{
+ 	 	text-align: left;
+ 	 }
+	.banner-text-wrapper{
+		display: inline-block;
+		width: 29%;
+    	position: relative;
+    	left: 60%;
+    	z-index: 10;
+    	padding-top: 0;
+	}
+	.banner-inner-img{
+		display: inline-block;
+		width: 70%;
+		position: relative;
+		left: -29%;
+	    padding-top: 20%;
+	}
+	.banner-text-wrapper h1,
+	.banner-text-wrapper p {
+		width: 120%;
+	}
+ }
+ @media (max-width: 800px) {
+	.banner-text-wrapper{
+		width: 100%;
+	    max-width: 100%;
+	    display: block;
+	    padding-top: 20%;
+	    left: 0;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    text-align: center;
+	}
+	.banner-inner-img{
+		position: relative;
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		left: 0;
+	    padding-top: 0;
+	}
+	.banner-text-wrapper h1,
+	.banner-text-wrapper p {
+		width: 100%;
+	}
+ }	
+</style> 
 </head>
 
 <body>
@@ -36,14 +105,12 @@
   </header>
   <!-- Navigation Section --> 
   <!-- Banner Section -->
-  <div class="container">
-    <div class="col-md-7 banner-inner-wrapper">
-      <div class="banner-text">
-        <h1>Guifen and Daniel are getting married!</h1>
-        <p>We haven't decided on a date or venue yet...stay tuned for more info.</p>
-       </div>
-    </div>
+
+  <div class="banner-text-wrapper">
+    <h1>Guifen and Daniel are getting&nbsp;married!</h1>
+    <p>We haven't decided on a date or venue yet...stay tuned for more info.</p>
   </div>
+  <img class="banner-inner-img" src="images/banner-inner.jpg"/>
   <!-- Banner Section --> 
 </section>
 <!-- Header Section --> 
